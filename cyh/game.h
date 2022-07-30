@@ -1,8 +1,13 @@
-#pragma once
+ï»¿#pragma once
 #define _CRT_SECURE_NO_WARNINGS 1
 
-#define ROW 3
-#define COL 3
+#define ROW_3 3
+#define COL_3 3
+#define ROW_4 11
+#define COL_4 11
+#define ROW_4_4 ROW_4-2
+#define COL_4_4 COL_4-2
+
 
 
 #include <stdio.h>
@@ -14,9 +19,21 @@ void menu(void);
 void game1(void);
 void game2(void);
 void game3(void);
+void game4(void);
 
-void chushihua(char qipan[ROW][COL], int row, int col);   //³õÊ¼»¯ÆåÅÌ
-void dayin(char qipan[ROW][COL], int row, int col); //´òÓ¡ÆåÅÌ
-void player(char qipan[ROW][COL]);  //Íæ¼ÒÊäÈë
-void computer(char qipan[ROW][COL]);  //µçÄÔÊäÈë
-char is_winner(char qipan[ROW][COL]);
+//game3
+void chushihua_3(char qipan[ROW_3][COL_3]);   //åˆå§‹åŒ–æ£‹ç›˜
+void dayin_3(char qipan[ROW_3][COL_3]); //æ‰“å°æ£‹ç›˜
+void player_3(char qipan[ROW_3][COL_3]);  //ç©å®¶è¾“å…¥
+void computer_3(char qipan[ROW_3][COL_3]);  //ç”µè„‘è¾“å…¥
+char is_winner_3(char qipan[ROW_3][COL_3]);//èƒœåˆ©è€…
+//game4
+void chushihua_4(char ch[ROW_4][COL_4], char m);//åˆå§‹åŒ–
+void bulei_4(char ch[ROW_4][COL_4]);//å¸ƒç½®é›·
+void dayin_4(char ch[ROW_4][COL_4]);//æ‰“å°
+int pailei_4(char ch[ROW_4][COL_4], char arr[ROW_4][COL_4]);//æ’é›·
+void saolei_4(char ch[ROW_4][COL_4], char arr[ROW_4][COL_4], int a, int b);//æ‰«é›·
+
+
+
+
