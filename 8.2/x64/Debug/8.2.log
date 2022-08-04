@@ -1,2 +1,3 @@
 ﻿  源.cpp
+D:\cyh\cyh\8.2\源.cpp(317,10): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
   8.2.vcxproj -> D:\cyh\cyh\8.2\x64\Debug\8.2.exe
