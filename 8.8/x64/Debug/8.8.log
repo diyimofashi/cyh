@@ -1,0 +1,3 @@
+﻿  test.c
+D:\cyh\cyh\8.8\test.c(130,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  8.8.vcxproj -> D:\cyh\cyh\8.8\x64\Debug\8.8.exe
