@@ -1,0 +1,4 @@
+﻿  模拟实现strncpy.c
+D:\cyh\cyh\8.24模拟实现strncpy\模拟实现strncpy.c(27,18): warning C4047: “=”:“char”与“char [2]”的间接级别不同
+D:\cyh\cyh\8.24模拟实现strncpy\模拟实现strncpy.c(11,10): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  8.24模拟实现strncpy.vcxproj -> D:\cyh\cyh\8.24模拟实现strncpy\x64\Debug\8.24模拟实现strncpy.exe
